@@ -1,4 +1,5 @@
 import Contact from './Contact';
+import PropTypes from 'prop-types';
 import s from './ContactList.module.css';
 
 function ContactList({ handleFilter, onDelete}) {
@@ -12,4 +13,10 @@ function ContactList({ handleFilter, onDelete}) {
   );
 }
 
+ContactList.propTypes = {
+  handleFilter: PropTypes.func.isRequired,
+  onDelete: PropTypes.func.isRequired
+}
+
 export default ContactList;
+

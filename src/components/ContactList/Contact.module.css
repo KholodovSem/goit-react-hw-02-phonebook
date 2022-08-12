@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+
+  margin-bottom: 5px;
+}
+
+.contact {
+  margin-right: 10px;
+}
+
+.button {
+  margin-left: auto;
+
+  background-color: transparent;
+  border: 1px solid black;
+}
